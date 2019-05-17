@@ -16,6 +16,6 @@ COPY ./NAE/AppDef.json /etc/NAE/AppDef.json
 
 # stuff data
 RUN apt-get install wget
-RUN su ryftuser -c "mkdir -p /ryftone/PCAP/MACCDC2012"
-RUN su ryftuser -c "cd /ryftone/PCAP/MACCDC2012 && wget https://download.netresec.com/pcap/maccdc-2012/maccdc2012_00000.pcap.gz"
-RUN su ryftuser -c "cd /ryftone/PCAP/MACCDC2012 && gunzip maccdc2012_00000.pcap.gz"
+#RUN su ryftuser -c "mkdir -p /ryftone/PCAP/MACCDC2012"
+#RUN su ryftuser -c "cd /ryftone/PCAP/MACCDC2012 && wget https://download.netresec.com/pcap/maccdc-2012/maccdc2012_00000.pcap.gz"
+#RUN su ryftuser -c "cd /ryftone/PCAP/MACCDC2012 && gunzip maccdc2012_00000.pcap.gz"
