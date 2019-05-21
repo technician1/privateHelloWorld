@@ -1,5 +1,5 @@
 #FROM kevinmadden/blacklynx_search:v8.nimbix
-FROM blregistry.internationalfusioncenter.com/blacklynx_search:v11.nimbix
+FROM blregistry.internationalfusioncenter.com/blacklynx_search:v10.nimbix
 
 # nimbix
 RUN apt-get -y update && \
@@ -14,4 +14,3 @@ EXPOSE 22
 ADD ./NAE/help.html /etc/NAE/help.html
 COPY ./NAE/AppDef.json /etc/NAE/AppDef.json
 
-# stuff data
