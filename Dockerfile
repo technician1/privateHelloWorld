@@ -1,4 +1,3 @@
-#FROM kevinmadden/blacklynx_search:v8.nimbix
 FROM blregistry.internationalfusioncenter.com/blacklynx_search:v11.nimbix
 
 # nimbix
