@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 #docker login blregistry.internationalfusioncenter.com
-v=v13
+v=v12a
 if [ ! -z "${1}" ]
 then
     v=$1
