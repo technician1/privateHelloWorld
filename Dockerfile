@@ -1,4 +1,4 @@
-FROM blacklynx_search:v12a.nimbix
+FROM blregistry.internationalfusioncenter.com/blacklynx_search:v12b.nimbix
 
 # nimbix
 RUN apt-get -y update && \
