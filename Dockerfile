@@ -1,4 +1,4 @@
-FROM blacklynx_search:v13.nimbix
+FROM blacklynx_search:v2.nimbix
 
 # nimbix
 RUN apt-get -y update && \
@@ -12,4 +12,6 @@ EXPOSE 22
 
 ADD ./NAE/help.html /etc/NAE/help.html
 COPY ./NAE/AppDef.json /etc/NAE/AppDef.json
+COPY ./NAE/AppDef.png /etc/NAE/AppDef.png
 
+RUN curl --fail -X POST -d @/etc/NAE/AppDef.json https://api.jarvice.com/jarvice/validate
