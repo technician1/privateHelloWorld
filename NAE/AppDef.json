@@ -21,10 +21,28 @@
         "OBJECT"
     ],
     "commands": {
-        "BlackLynx_HPC_Server": {
+         "BlackLynx_HPC_Splunk": {
             "path": "/sbin/init",
             "interactive": true,
-            "name": "Server",
+            "name": "BlackLynx HPC accelerates Splunk",
+            "description": "BlackLynx HPC accelerates Splunk",
+            "url": "http://%PUBLICADDR%:8000/",
+            "parameters": {
+            }
+        },
+        "BlackLynx_HPC_QueryMaker": {
+            "path": "/sbin/init",
+            "interactive": true,
+            "name": "BlackLynx HPC QueryMaker",
+            "description": "BlackLynx HPC QueryMaker",
+            "url": "http://%PUBLICADDR%/",
+            "parameters": {
+            }
+        },
+        "Server": {
+            "path": "/sbin/init",
+            "interactive": true,
+            "name": "BlackLynx HPC ssh",
             "description": "Launch a BlackLynx HPC session. SSH connection address and credentials will appear in your web browser once available and a help window shows useful BlackLynx HPC session links.",
             "parameters": {}
         }
