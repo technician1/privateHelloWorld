@@ -1,4 +1,4 @@
-FROM blacklynx_search:v2.nimbix
+FROM blacklynx_search:v5.nimbix
 
 # nimbix
 RUN apt-get -y update && \

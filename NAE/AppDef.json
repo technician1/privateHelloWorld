@@ -38,13 +38,6 @@
             "url": "http://%PUBLICADDR%/",
             "parameters": {
             }
-        },
-        "Server": {
-            "path": "/sbin/init",
-            "interactive": true,
-            "name": "BlackLynx HPC ssh",
-            "description": "Launch a BlackLynx HPC session. SSH connection address and credentials will appear in your web browser once available and a help window shows useful BlackLynx HPC session links.",
-            "parameters": {}
         }
     },
     "image": {

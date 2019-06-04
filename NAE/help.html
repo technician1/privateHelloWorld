@@ -7,34 +7,35 @@ session in the Nimbix Cloud.
 
 
 <h2>How to Access Your BlackLynx HPC</h2>
-<p>
-  BlackLynx HPC QueryMaker web interface
-  <br />
+<hr>
+<h4>BlackLynx HPC QueryMaker web interface</h4>
   <a href="http://%PUBLICADDR%">http://%PUBLICADDR%/</a>
-  <br />
-</p>
-<p>
-  BlackLynx HPC Splunk web interface 
-  <br />
+<hr>
+<h4>BlackLynx HPC Splunk web interface </h4>
   <a href="http://%PUBLICADDR%:8000/">http://%PUBLICADDR%:8000/</a>
   <br />
   <ul>
     <li><b>username:</b> admin</li>
     <li><b>password:</b> blacklynx</li>
   </ul>
-</p>
-<p>
-  BlackLynx HPC ssh access
-  <br />
-  <pre>
+<hr>
+<h4>BlackLynx HPC ODBC Client installation instructions</h4>
+An ODBC client driver must be installed on your desktop to enable BlackLynx connectivity using Tableau, PowerBI, or
+Excel.
+  <a href="https://ryftcloud.zendesk.com/hc/en-us/articles/360024221953-BlackLynx-Install-and-Configure-ODBC-Connector-">BlackLynx ODBC Client Installation Instructions</a>
+  <ul>
+    <li><b>user:</b> ryftuser</li>
+    <li><b>server:</b> %PUBLICADDR%</li>
+    <li><b>port:</b> 7409</li>
+  </ul>
+<hr>
+<h4>BlackLynx HPC ssh access</h4>
     ssh ryftuser@%PUBLICADDR%
-  </pre>
-  <br />
   <ul>
     <li><b>password:</b> %NIMBIXPASSWD%</li>
   </ul>
-</p>
 
+<hr>
 <h2>BlackLynx Documentation</h2>
 <p>
   <ul>
