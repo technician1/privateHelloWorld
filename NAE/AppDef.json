@@ -23,7 +23,7 @@
   "commands": {
     "BlackLynx_HPC_Server": {
       "path": "/sbin/init",
-      "interactive": false,
+      "interactive": true,
       "name": "BlackLynx Server",
       "description": "BlackLynx Server",
       "parameters": {
@@ -38,7 +38,7 @@
         }
       }
     },
-    "BlackLynx_HPC_Splunk": {
+   "BlackLynx_HPC_Splunk": {
       "path": "/sbin/init",
       "interactive": true,
       "name": "BlackLynx HPC accelerates Splunk",
