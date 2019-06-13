@@ -15,7 +15,9 @@ chown 600 ~/.nimbix
 ## AppDef.json image tag generation 
 ```
 cd
-base64 -w 0 AppDef.png
+data=`base64 -w 0 AppDef.png`
+cat AppDef.json|jq ".image.data=\"$data\"" >/tmp/AppDef.json
+mgdiff AppDef.json /tmp/AppDef.json
 ```
 
 # build blacklynx_search:v6.nimbix.test
