@@ -16,7 +16,7 @@ blregistry=blregistry.internationalfusioncenter.com
 blregistry=kevinmadden
 
 # version
-v=v3
+v=v6
 if [ ! -z "${1}" ]
 then
     v=$1

@@ -21,33 +21,16 @@
     "OBJECT"
   ],
   "commands": {
-    "BlackLynx_HPC_Server": {
-      "path": "/sbin/init",
-      "interactive": true,
-      "name": "BlackLynx Server",
-      "description": "BlackLynx Server",
-      "parameters": {
-        "-MLV": {
-          "name": "Enable Machine Learning Video Demo",
-          "description": "Start Machine Learning Video Demo Servers for 2 hours, add dashboard to Splunk",
-          "type": "BOOL",
-          "required": true,
-          "variable": false,
-          "positional": false,
-          "value": false
-        }
-      }
-    },
    "BlackLynx_HPC_Splunk": {
       "path": "/sbin/init",
       "interactive": true,
-      "name": "BlackLynx HPC accelerates Splunk",
+      "name": "BlackLynx HPC Accelerates Splunk",
       "description": "BlackLynx HPC accelerates Splunk",
       "url": "http://%PUBLICADDR%:8000/",
       "parameters": {
         "-MLV": {
           "name": "Enable Machine Learning Video Demo",
-          "description": "Start Machine Learning Video Demo Servers for 2 hours, add dashboard to Splunk",
+          "description": "<ul> <li>Add 'Machine Learning Video Alerts' to dashboard.</li> <li>Start Machine Learning Video Alert Servers for 2 hours.</li>, <li>Machine Learning Video Alert Servers will take 15 minutes to start if not already running.</li> </ul>"
           "type": "BOOL",
           "required": true,
           "variable": false,
@@ -65,7 +48,7 @@
       "parameters": {
         "-MLV": {
           "name": "Enable Machine Learning Video Demo",
-          "description": "Start Machine Learning Video Demo Servers for 2 hours, add dashboard to Splunk",
+          "description": "<ul> <li>Add 'Machine Learning Video Alerts' to dashboard.</li> <li>Start Machine Learning Video Alert Servers for 2 hours.</li>, <li>Machine Learning Video Alert Servers will take 15 minutes to start if not already running.</li> </ul>"
           "type": "BOOL",
           "required": true,
           "variable": false,
