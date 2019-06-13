@@ -12,8 +12,7 @@ else
 fi
 
 # blregistry domain name
-blregistry=blregistry.internationalfusioncenter.com
-blregistry=kevinmadden
+blregistry=blacklynx
 
 # version
 v=v6
