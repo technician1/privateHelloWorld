@@ -29,8 +29,8 @@
       "url": "http://%PUBLICADDR%:8000/",
       "parameters": {
         "-MLV": {
-          "name": "Enable Machine Learning Video Demo",
-          "description": "<ul> <li>Add 'Machine Learning Video Alerts' to dashboard.</li> <li>Start Machine Learning Video Alert Servers for 2 hours.</li>, <li>Machine Learning Video Alert Servers will take 15 minutes to start if not already running.</li> </ul>",
+          "name": "Enable 'Machine Learning Video Alerts' Dashboard",
+          "description": "Add 'Machine Learning Video Alerts' to dashboard. Start Machine Learning Video Alert Servers for 2 hours. Machine Learning Video Alert Servers will take 15 minutes to start if not already running.",
           "type": "BOOL",
           "required": true,
           "variable": false,
@@ -47,8 +47,8 @@
       "url": "http://%PUBLICADDR%/",
       "parameters": {
         "-MLV": {
-          "name": "Enable Machine Learning Video Demo",
-          "description": "<ul> <li>Add 'Machine Learning Video Alerts' to dashboard.</li> <li>Start Machine Learning Video Alert Servers for 2 hours.</li>, <li>Machine Learning Video Alert Servers will take 15 minutes to start if not already running.</li> </ul>",
+          "name": "Enable 'Machine Learning Video Alerts' Dashboard",
+          "description": "Add 'Machine Learning Video Alerts' to dashboard. Start Machine Learning Video Alert Servers for 2 hours. Machine Learning Video Alert Servers will take 15 minutes to start if not already running.",
           "type": "BOOL",
           "required": true,
           "variable": false,
