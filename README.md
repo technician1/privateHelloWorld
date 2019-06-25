@@ -25,6 +25,7 @@ mgdiff AppDef.json /tmp/AppDef.json
 cd
 git clone https://github.com/technician1/privateHelloWorld
 cd privateHelloWorld
+# make sure Dockerfile pulls agrees with/ has proper reference (FROM blacklynx_search:v7.nimbix?)
 ./buildit.sh v6
 ```
 

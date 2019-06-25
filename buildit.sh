@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-v=v6
+v=v7
 if [ ! -z "${1}" ]
 then
     v="${1}"
