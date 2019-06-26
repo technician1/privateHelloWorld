@@ -21,15 +21,15 @@ then
     v=$1
 fi
 
-docker tag blacklynx_search:${v}.nimbix.test ${blregistry}/blacklynx_search:${v}.nimbix.test
-docker push ${blregistry}/blacklynx_search:${v}.nimbix.test
+docker tag blacklynx_search:${v}.nimbix.demo ${blregistry}/blacklynx_search:${v}.nimbix.demo
+docker push ${blregistry}/blacklynx_search:${v}.nimbix.demo
 
 # initiate pull request (tested)
 curl -X POST \
     -F "username=${nimbix_username}" \
-    -F "repo=${blregistry}/blacklynx_search:${v}.nimbix.test" \
+    -F "repo=${blregistry}/blacklynx_search:${v}.nimbix.demo" \
     -F "apikey=${nimbix_apikey}" \
-    -F "target=blacklynx_hpc_${v}" \
+    -F "target=blacklynx_hpc_demo_${v}" \
     https://api.jarvice.com/jarvice/pull
 
 # initiate pull request (untested)

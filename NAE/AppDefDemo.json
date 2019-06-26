@@ -27,17 +27,7 @@
       "name": "BlackLynx HPC Accelerates Splunk",
       "description": "BlackLynx HPC accelerates Splunk",
       "url": "http://%PUBLICADDR%:8000/",
-      "parameters": {
-        "-MLV": {
-          "name": "Enable 'Machine Learning Video Alerts' Dashboard",
-          "description": "Selection adds 'Machine Learning Video Alerts' to Splunk dashboard and enables the Machine Learning Video Alert Servers for 2 hours. The Machine Learning Video Alert Servers will take 15 minutes to start if not already running.",
-          "type": "BOOL",
-          "required": true,
-          "variable": false,
-          "positional": false,
-          "value": false
-        }
-      }
+      "parameters": {}
     },
     "BlackLynx_HPC_QueryMaker": {
       "path": "/sbin/init",
@@ -45,17 +35,7 @@
       "name": "BlackLynx HPC QueryMaker",
       "description": "BlackLynx HPC QueryMaker",
       "url": "http://%PUBLICADDR%/",
-      "parameters": {
-        "-MLV": {
-          "name": "Enable 'Machine Learning Video Alerts' Dashboard",
-          "description": "Add 'Machine Learning Video Alerts' to dashboard. Start Machine Learning Video Alert Servers for 2 hours. Machine Learning Video Alert Servers will take 15 minutes to start if not already running.",
-          "type": "BOOL",
-          "required": true,
-          "variable": false,
-          "positional": false,
-          "value": false
-        }
-      }
+      "parameters": {}
     }
   },
   "image": {
